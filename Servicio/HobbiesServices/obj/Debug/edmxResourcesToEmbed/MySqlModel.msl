@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MySqlFirtsModelStoreContainer" CdmEntityContainer="MySqlEntities">
+    <EntitySetMapping Name="hobbies">
+      <EntityTypeMapping TypeName="MySqlFirtsModel.hobby">
+        <MappingFragment StoreEntitySet="hobbies">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

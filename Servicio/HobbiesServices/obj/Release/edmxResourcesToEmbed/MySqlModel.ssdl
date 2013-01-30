@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MySqlFirtsModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MySqlFirtsModelStoreContainer">
+    <EntitySet Name="hobbies" EntityType="MySqlFirtsModel.Store.hobbies" store:Type="Tables" Schema="dbcdba587cd998449c8456a1540003b632" />
+  </EntityContainer>
+  <EntityType Name="hobbies">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" />
+  </EntityType>
+</Schema>

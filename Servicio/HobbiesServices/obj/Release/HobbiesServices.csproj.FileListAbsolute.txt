@@ -1,0 +1,5 @@
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\HobbiesServices.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\bin\HobbiesServices.pdb
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Release\ResolveAssemblyReference.cache
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Release\HobbiesServices.dll
+D:\Proyectos\UPC\Hobbies\Servicio\HobbiesServices\obj\Release\HobbiesServices.pdb
